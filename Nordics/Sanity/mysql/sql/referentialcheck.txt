@@ -1,0 +1,1 @@
+select 'REFERENTIAL CHECK', count(*) from jsatdb.ps_product where id_supplier in (select max(id_supplier) from jsatdb.ps_supplier);

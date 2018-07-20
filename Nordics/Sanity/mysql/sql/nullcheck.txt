@@ -1,0 +1,2 @@
+select 'NULL CHECK', count(*) from jsatdb.ps_product where id_product is null;
+select 'NULL CHECK', count(*) from jsatdb.ps_customer where id_customer is null;

@@ -1,0 +1,1 @@
+select 'DATALOAD CHECK', count(*) from jsatdb.ps_customer t where id_customer = (select max(id_customer) from jsatdb.ps_customer);
